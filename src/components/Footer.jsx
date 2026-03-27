@@ -15,10 +15,10 @@ const Footer = () => {
           </p>
 		  
           <div className="flex gap-x-5 text-white/60">
-            <Link to={"https://www.instagram.com"} className="text-2xl hover:scale-105">
+            <Link to={"https://www.instagram.com/blog_abdulaziz?igsh=MTJmbG85emd1ZWl1Mw%3D%3D&utm_source=qr"} className="text-2xl hover:scale-105">
               <FaInstagram />
             </Link>
-            <Link to={"/"} className="text-2xl hover:scale-105">
+            <Link to={"https://t.me/shefko_donar"} className="text-2xl hover:scale-105">
             <LiaTelegram />
             </Link>
           </div>

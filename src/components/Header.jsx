@@ -4,7 +4,6 @@ import logo from "../assets/shefkologo.png";
 import LanguageSelect from "./LanguageSelect";
 import { HiMenu } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
-import i18n from "../i18next";
 import { useTranslation } from "react-i18next";
 
 const Header = ({openModal}) => {
@@ -41,11 +40,6 @@ const Header = ({openModal}) => {
     };
   }, []);
 
-  const changeLng = (lng) => {
-    i18n.changeLanguage(lng)
-    localStorage.setItem("taqvoLng", lng);
-  }
-
   return (
     <header>
       {/* Mobil menyu */}
@@ -63,7 +57,7 @@ const Header = ({openModal}) => {
             <li>
               <Link to="/">
                 <img
-                  className="h-[50px] w-[150px]"
+                  className="h-[110px] w-[120px]"
                   src={logo}
                   alt="taqvo logo"
                 />
@@ -78,19 +72,6 @@ const Header = ({openModal}) => {
               <Link to="/about" onClick={() => setOpen(false)}>
               {t("header.about")}
               </Link>
-            </li>
-            <li>
-              <div className="flex items-center gap-[10px] oswald">
-                <button onClick={() => changeLng("ru")} className="w-full font-medium border-[2px] border-red-800 rounded-full py-[10px] text-[15px] ">
-                  RU
-                </button>
-                <button onClick={() => changeLng("uz")} className="w-full font-medium border-[2px] border-red-800 rounded-full py-[10px] text-[15px] ">
-                  UZ
-                </button>
-                <button onClick={() => changeLng("en")} className="w-full font-medium border-[2px] border-red-800 rounded-full py-[10px] text-[15px] ">
-                  EN
-                </button>
-              </div>
             </li>
           </ul>
         </div>
@@ -124,19 +105,21 @@ const Header = ({openModal}) => {
   </h2>
 </Link>
             {/* Til tanlash va tugma */}
-            <div className="hidden lg:block">
+            <div className="hidden lg:flex items-center gap-4">
               <LanguageSelect />
               <button onClick={openModal} className="font-[500] w-[240px] h-[44px] bg-[#a78861] transition-all duration-300 rounded-[30px] hover:bg-[#d1ab7d]">
               {t("header.btn")}
               </button>
             </div>
-            {/* Mobil menyu tugmasi */}
-            <div
-              ref={buttonRef}
-              className="block lg:hidden"
-              onClick={handleMenuToggle}
-            >
-              <HiMenu className="text-[28px]" />
+            {/* Mobil til tanlash va menyu tugmasi */}
+            <div className="flex lg:hidden items-center gap-2">
+              <LanguageSelect />
+              <div
+                ref={buttonRef}
+                onClick={handleMenuToggle}
+              >
+                <HiMenu className="text-[28px]" />
+              </div>
             </div>
           </div>
         </div>

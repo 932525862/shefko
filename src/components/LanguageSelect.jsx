@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import i18n from "../i18next";
 
 const languages = [
-  { code: "uz", label: "UZB" },
-  { code: "ru", label: "RU" },
-  { code: "en", label: "ENG" },
+  { code: "uz", label: "UZB", flag: "🇺🇿" },
+  { code: "ru", label: "RU", flag: "🇷🇺" },
+  { code: "en", label: "ENG", flag: "🇺🇸" },
 ];
 
 const LanguageSelect = () => {
@@ -36,7 +36,10 @@ const LanguageSelect = () => {
         onClick={() => setIsDropdownOpen((prev) => !prev)}
         className="rounded-md bg-transparent w-full text-left px-4 oswald py-2 flex justify-between items-center text-[#fff]"
       >
-        {languages.find((lang) => lang.code === selectedLang)?.label || "Tilni tanlang"}
+        <span className="flex items-center gap-2">
+          {languages.find((lang) => lang.code === selectedLang)?.flag}
+          {languages.find((lang) => lang.code === selectedLang)?.label || "Tilni tanlang"}
+        </span>
         <span>{isDropdownOpen ? "▲" : "▼"}</span>
       </button>
       {isDropdownOpen && (
@@ -47,7 +50,9 @@ const LanguageSelect = () => {
               onClick={() => handleChange(lang.code)}
               className={`w-full text-left px-4 py-2 hover:bg-gray-100 ${lang.code === selectedLang ? "bg-gray-200" : ""}`}
             >
-              {lang.label}
+              <span className="flex items-center gap-2">
+                {lang.flag} {lang.label}
+              </span>
             </button>
           ))}
         </div>

@@ -1,14 +1,26 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import buka from "../../assets/shefkologo.png";
+import video from "../../assets/bg.mp4";
 import { useTranslation } from "react-i18next";
 const Hero = ({ openModal }) => {
   const { t } = useTranslation()
   return (
-    <section className="relative h-screen bg-red-800">
-      <div className="absolute top-[65%] lg:top-[30%] z-20 w-full overflow-hidden">
+    <section className="relative h-[70vh] lg:h-screen bg-red-800">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 hidden lg:block"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="absolute top-[75%] lg:top-[30%] z-20 w-full overflow-hidden">
         <Marquee direction="left" gradient={false}>
-          <div className="oswald text-[12vw] uppercase text-[#fff] font-medium mr-4">
+          <div className="oswald text-[12vw] uppercase text-white font-medium mr-4">
             {t("hero.title")}{" "}
           </div>
         </Marquee>
@@ -16,7 +28,7 @@ const Hero = ({ openModal }) => {
       <div className="container relative z-10 h-full">
         <div className="flex items-start pt-36 lg:pt-0 lg:items-end h-full pb-14">
           <div className="flex lg:flex-row flex-col gap-6 items-center  justify-between w-full">
-            <div className="max-w-[460px] text-center lg:text-left lg:max-w-[350px] text-[#fff]">
+            <div className="max-w-[460px] text-center lg:text-left lg:max-w-[350px] text-[#ffffff] text-xl font-bold">
             {t("hero.text")}
             </div>
             <div className="w-[158px] h-[158px] rounded-full border border-[#ece6e6] p-[10px] cursor-pointer relative">
