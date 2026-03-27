@@ -16,7 +16,7 @@ function App() {
 
   // useEffect orqali loadingni 2 soniyadan keyin o'chiramiz
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 2000); // 2 soniya
+    const timer = setTimeout(() => setIsLoading(false), 3000); // 2 soniya
     return () => clearTimeout(timer); // Timerni tozalash
   }, []);
 
