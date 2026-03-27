@@ -5,59 +5,59 @@
         "btn": "Contact"
     },
     "hero": {
-        "title": "Natural Products! Quality and Trust!",
-        "text": "AQVO is the leading brand in Uzbekistan that embodies quality and honesty, offering minced meat products with a new taste and modern design.",
-        "btn": "Order"
+        "title": "Delicious and Natural Products! Quality and Trust!",
+        "text": "SHEFKO is a leading brand in Uzbekistan that embodies quality and integrity, offering doner, canned meat, and kazan kebab products with unique flavors and modern design.",
+        "btn": "Order Now"
     },
     "swiper": {
-        "title-1": "About Aqvo Brand",
-        "text-1": "Aqvo is a brand that embodies quality and honesty, presenting its products with a new taste and modern design through an innovative approach. Being the first in Uzbekistan to produce minced meat products based on the principles of high quality and honesty, Aqvo has earned the trust of its customers.",
+        "title-1": "About the SHEFKO Brand",
+        "text-1": "SHEFKO is an innovative brand that combines quality, integrity, and a modern approach. We offer beef doner, chicken doner, canned meat, and kazan kebab products with unique flavors and modern packaging. In a short time, SHEFKO has gained customer trust and secured its place in the market.",
         "title-2": "Product Types",
-        "text-2": "The Aqvo brand currently offers products made from beef, chicken, and lamb meat to consumers. Each of our products is made based on high quality, new taste, and honesty principles. Aqvo is the bright symbol of delicious and trustworthy products.",
-        "title-3": "Delivery Range",
-        "text-3": "The Aqvo brand ensures the delivery of its products to a wide range of areas, prioritizing quality and speed. Our delivery network ensures that products reach all regions of Uzbekistan on time. Aqvo is always close to you, always reliable."
+        "text-2": "SHEFKO serves customers with beef doner, chicken doner, canned meat, and kazan kebab products. Each of our products is made based on high quality, natural ingredients, and a unique delicious taste. SHEFKO is a tasty and reliable choice.",
+        "title-3": "Delivery Coverage",
+        "text-3": "SHEFKO delivers its products quickly and reliably to a wide range of regions. Through our delivery system, products reach all regions of Uzbekistan on time. SHEFKO is always close to you and a reliable partner."
     },
     "taqvo": {
-        "title": "YOUR MOMENTS WITH AQVO",
+        "title": "YOUR MOMENTS WITH SHEFKO",
         "ins-1": "Our Instagram",
         "tg-1": "Our Telegram",
         "ins-2": "Instagram",
         "tg-2": "Telegram"
     },
     "contact": {
-		"tel": "Our contact phone numbers:",
-        "title": "Experience the new taste with 'AQVO'.",
-        "text": "The Aqvo brand invites you to discover new tastes. Our products provide a unique taste to each consumer through quality and an innovative approach. Aqvo is not just taste; it’s the opportunity to experience new, healthy, and halal products. Discover new taste with us and experience true quality!"
+        "tel": "Our contact phone numbers:",
+        "title": "Discover a New Taste with SHEFKO!",
+        "text": "SHEFKO invites you to experience new and unique flavors. Our beef doner, chicken doner, canned meat, and kazan kebab products are made based on high quality, integrity, and a modern approach. SHEFKO is not only about taste, but also a symbol of trust and quality. Experience the true taste with us!"
     },
     "form": {
-        "name": "Your Name",
-        "name-error": "Enter your name",
-        "lastName": "Your Last Name",
-        "lastName-error": "Enter your last name",
-        "phone": "Your Phone Number",
-        "phone-error": "Enter your phone number",
+        "name": "First Name",
+        "name-error": "Please enter your first name",
+        "lastName": "Last Name",
+        "lastName-error": "Please enter your last name",
+        "phone": "Phone Number",
+        "phone-error": "Please enter your phone number",
         "tg": "Telegram Username",
-        "tg-error": "Enter your Telegram username",
+        "tg-error": "Please enter your Telegram username",
         "area": "Region",
-        "area-error": "Enter your region",
+        "area-error": "Please enter your region",
         "service": "Select Service Type",
         "message": "Message",
         "btn": "Submit"
     },
     "about": {
-        "title-h": "Aqvo - Quality Canned Products",
-        "title-h1-1": "AQVO Minced Meat Products",
-        "title-h2-1": "AQVO is the leading brand in Uzbekistan that embodies quality and honesty, offering minced meat products with a new taste and modern design.",
-        "text-1": "AQVO is one of the leading producers of minced and canned products in Uzbekistan. We strive to provide minced meat products that embody quality and honesty, meeting international standards and requirements. Using modern equipment and advanced technologies, our production process is strictly monitored for quality. Every AQVO minced meat product undergoes several stages of testing and inspection to ensure its safety and suitability for consumption. AQVO is the symbol of quality, honesty, and safety.",
-        "title-h1-2": "AQVO",
-        "title-h2-2": "AQVO Minced Meat Products: New Design, New Taste",
-        "text-2": "The Aqvo brand presents minced meat products with a new, modern packaging design and unique taste. Our products are not only of high quality but also packaged in attractive and environmentally friendly materials. Every Aqvo product package offers a unique taste and design that provides customers not only quality but also visual pleasure.",
-        "text-3": "The Aqvo brand presents minced meat products with new taste and modern packaging design. Our products are of high quality, halal, and safe, and each package stands out with its innovative design. Our minced meat products meet international quality standards and are produced using modern technologies. Every product undergoes several strict checks, ensuring its taste and quality. Aqvo products are not only tasty but also valued by our customers for their design and eco-technologies. We strive to provide every consumer with high-quality products while ensuring the perfect harmony of quality and design. Aqvo is about new taste and modern design.",
+        "title-h": "SHEFKO - High-quality doner, canned meat, and kazan kebab products",
+        "title-h1-1": "SHEFKO Products",
+        "title-h2-1": "SHEFKO is a leading brand in Uzbekistan producing beef doner, chicken doner, canned meat, and kazan kebab products based on quality and integrity.",
+        "text-1": "SHEFKO is a modern company specializing in the production of doner, canned meat, and kazan kebab products. We provide our customers with high-quality, halal products that meet international standards. Advanced technologies and strict quality control are applied in the production process. Each product undergoes multiple testing stages to ensure its safety and quality. SHEFKO is a symbol of quality, integrity, and trust.",
+        "title-h1-2": "SHEFKO",
+        "title-h2-2": "SHEFKO: Modern Design and Unique Taste",
+        "text-2": "SHEFKO products stand out with modern packaging design and a unique delicious taste. We strive to offer not only high-quality but also aesthetically appealing products. Each SHEFKO package brings pleasure to customers with its appearance and taste.",
+        "text-3": "SHEFKO produces beef doner, chicken doner, canned meat, and kazan kebab products using modern technologies. Our products are high-quality, halal, and safe, undergoing strict quality control. Each product stands out with its rich taste and high standards. SHEFKO is a perfect combination of modern design, trust, and true flavor.",
         "sertificate": "OUR CERTIFICATES"
     },
     "footer": {
-        "title": "The taste, quality, purity, and uniqueness you are looking for... All come together in 'Aqvo'!",
+        "title": "The taste, quality, and trust you are looking for... All in one place – SHEFKO!",
         "secret": "All rights reserved",
-        "by": "Created by Limsa"
+        "by": ""
     }
 }
