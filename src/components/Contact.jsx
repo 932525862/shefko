@@ -1,5 +1,5 @@
 import Form from "./Form";
-import backgroundImage from "../assets/img2/22.jpg";
+import backgroundImage from "../assets/bgimg.png";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {

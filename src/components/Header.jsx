@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/shefkologo.png";
 import LanguageSelect from "./LanguageSelect";
 import { HiMenu } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
@@ -112,9 +112,17 @@ const Header = ({openModal}) => {
               </ul>
             </div>
             {/* Logo */}
-            <Link to="/" className="h-[30px] w-[90px]">
-              <img className="h-[30px] w-[90px]" src={logo} alt="taqvo logo" />
-            </Link>
+          <Link to="/" className="h-[40px] w-[90px]">
+  <h2
+    style={{
+      fontFamily: 'Montserrat, sans-serif',
+      fontWeight: 800,
+      fontSize: '30px'
+    }}
+  >
+    SHEFKO
+  </h2>
+</Link>
             {/* Til tanlash va tugma */}
             <div className="hidden lg:block">
               <LanguageSelect />

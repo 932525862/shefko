@@ -1,27 +1,27 @@
 import React from "react";
-import taqvoImg from "../assets/logo.png";
 
-import img1 from "../assets/img1/1.jpg";
-import img2 from "../assets/img1/2.jpg";
-import img3 from "../assets/img1/3.jpg";
-import img4 from "../assets/img1/4.jpg";
-import img5 from "../assets/img1/5.jpg";
-import img6 from "../assets/img1/6.jpg";
-import img7 from "../assets/img1/7.jpg";
-import img8 from "../assets/img1/8.jpg";
-import img9 from "../assets/img1/9.jpg";
 
-import photo1 from "../assets/img2/1.jpg";
-import photo2 from "../assets/img2/2.jpg";
-import photo3 from "../assets/img2/3.jpg";
-import photo4 from "../assets/img2/4.jpg";
-import photo5 from "../assets/img2/5.jpg";
-import photo6 from "../assets/img2/6.jpg";
-import photo7 from "../assets/img2/7.jpg";
-import photo8 from "../assets/img2/8.jpg";
-import photo9 from "../assets/img2/9.jpg";
-import photo10 from "../assets/img2/10.jpg";
-import photo11 from "../assets/img2/11.jpg";
+import img1 from "../../public/img/2.jpg";
+import img2 from "../assets/1.jpg";
+import img3 from "../assets/2.jpg";
+import img4 from "../assets/3.png";
+import img5 from "../assets/4.jpg";
+import img6 from "../assets/5.jpg";
+import img7 from "../assets/6.jpg";
+import img8 from "../assets/7.jpg";
+import img9 from "../assets/8.jpg";
+
+import photo1 from "../assets/8.jpg";
+import photo2 from "../assets/9.jpg";
+import photo3 from "../assets/10.jpg";
+import photo4 from "../assets/11.jpg";
+import photo5 from "../assets/12.jpg";
+import photo6 from "../assets/13.jpg";
+import photo7 from "../assets/14.jpg";
+import photo8 from "../assets/15.jpg";
+import photo9 from "../assets/16.jpg";
+import photo10 from "../assets/17.jpg";
+import photo11 from "../assets/18.jpg";
 
 import Marquee from "react-fast-marquee";
 import { useTranslation } from "react-i18next";
@@ -37,7 +37,7 @@ const Taqvo = () => {
             {t("taqvo.title")}
             </h1>
             <div className="absolute -bottom-[50px] sm:-bottom-[30px] right-0 sm:-right-[100px]">
-              <img className="w-[150px] sm:w-[200px] h-auto" src={taqvoImg} alt="taqvo photo" />
+              
             </div>
           </div>
          

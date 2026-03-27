@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import leftArrowIcon from "../assets/left-arrow.svg";
-import aboutImg1 from "../assets/about1.jpg";
-import aboutImg2 from "../assets/about2.jpg";
-import aboutImg3 from "../assets/about.jpg";
-import sertificatImg1 from "../assets/sertifikat.png";
-import sertificatImg2 from "../assets/sertifikat2.png";
-import sertificatImg3 from "../assets/sertifikat4.png";
-import sertificatImg from "../assets/ertifikat3.png";
+import aboutImg1 from "../assets/tusho.jpg";
+import aboutImg2 from "../assets/kavob.jpg";
+import aboutImg3 from "../assets/uzun.png";
+import sertificatImg1 from "../assets/sert1.jpg";
+import sertificatImg2 from "../assets/sert4.png";
+import sertificatImg3 from "../assets/sert3.png";
+
 import { useTranslation } from "react-i18next";
 
 const About = () => {
@@ -91,11 +91,11 @@ const About = () => {
           {t("about.sertificate")}
           </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
             <img src={sertificatImg1} alt="taqvo sertificat image" />
             <img src={sertificatImg2} alt="taqvo sertificat image" />
             <img src={sertificatImg3} alt="taqvo sertificat image" />
-            <img src={sertificatImg} alt="taqvo sertificat image" />
+            
           </div>
         </div>
       </div>
