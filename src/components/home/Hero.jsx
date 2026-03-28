@@ -8,7 +8,7 @@ const Hero = ({ openModal }) => {
   return (
     <section className="relative h-[70vh] lg:h-screen bg-red-800">
       {/* Background Video */}
-      <video
+      {/* <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0 hidden lg:block"
         autoPlay
         muted
@@ -17,7 +17,7 @@ const Hero = ({ openModal }) => {
       >
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className="absolute top-[75%] lg:top-[30%] z-20 w-full overflow-hidden">
         <Marquee direction="left" gradient={false}>
           <div className="oswald text-[12vw] uppercase text-white font-medium mr-4">

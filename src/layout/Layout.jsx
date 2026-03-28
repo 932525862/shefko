@@ -14,7 +14,7 @@ const Layout = ({isOpen, setIsOpen, openModal}) => {
         <Footer/>
         {/* Floating Phone Button */}
         <a
-          href="tel:+998901234567"
+          href="tel:+998996440101"
           className="fixed bottom-5 right-5 bg-white text-red-800 p-4 rounded-full shadow-lg hover:bg-gray-100 hover:scale-110 transition-all duration-300 animate-pulse hover:animate-none z-[9999]"
         >
           <FiPhone className="text-2xl" />

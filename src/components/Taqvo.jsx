@@ -43,14 +43,20 @@ const Taqvo = () => {
          
           <div className="hidden lg:flex items-center flex-col gap-[10px] w-[260px]">
             <a
-              href="https://www.instagram.com/aqvo_jiz/"
+              href="https://www.instagram.com/blog_abdulaziz?igsh=MTJmbG85emd1ZWl1Mw%3D%3D&utm_source=qr"
               className="w-full font-medium border border-white rounded-full py-[15px] text-[15px] hover:bg-white hover:text-navy-900 hover:text-red-800 transition-colors duration-300 flex justify-center items-center"
             >
               {t("taqvo.ins-1")}
             </a>
-            <button className="w-full font-medium border border-white rounded-full py-[15px] text-[15px] hover:bg-white hover:text-navy-900 hover:text-red-800 transition-colors duration-300">
+             <a
+              href="https://t.me/shefko_donar"
+              className="w-full font-medium border border-white rounded-full py-[15px] text-[15px] hover:bg-white hover:text-navy-900 hover:text-red-800 transition-colors duration-300 flex justify-center items-center"
+            >
+               {t("taqvo.tg-1")}
+            </a>
+            {/* <button className="w-full font-medium border border-white rounded-full py-[15px] text-[15px] hover:bg-white hover:text-navy-900 hover:text-red-800 transition-colors duration-300">
               {t("taqvo.tg-1")}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
@@ -203,19 +209,25 @@ const Taqvo = () => {
         </Marquee>
       </div>
       <div className="container">
-        <div className="lg:hidden flex items-center gap-[10px] w-full mt-[30px] text-[#fff] text-[14px] ss:text-[15px]">
+        <div className="lg:hidden flex items-center gap-[10px] w-full mt-[30px]">
           {/* <button className="w-full font-medium border border-white rounded-full py-[15px] ">
           {t("taqvo.ins-2")}
           </button> */}
-		  <a
+		       <a
               href="https://www.instagram.com/aqvo_jiz/"
-              className="w-full font-medium border border-white rounded-full py-[15px]  lg:hidden flex items-center gap-[10px] w-full mt-[30px] text-[#fff] text-[14px] ss:text-[15px]"
+              className="w-full font-medium border border-white rounded-full py-[15px] flex items-center justify-center text-[#fff] text-[14px] ss:text-[15px]"
             >
               {t("taqvo.ins-1")}
             </a>
-          <button className="w-full font-medium border border-white rounded-full py-[15px] ">
+            <a
+              href="https://t.me/shefko_donar"
+              className="w-full font-medium border border-white rounded-full py-[15px] flex items-center justify-center text-[#fff] text-[14px] ss:text-[15px]"
+            >
+              {t("taqvo.tg-1")}
+            </a>
+          {/* <button className="w-full font-medium border border-white rounded-full py-[15px] ">
           {t("taqvo.tg-2")}
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
