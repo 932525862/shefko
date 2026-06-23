@@ -55,6 +55,58 @@
         "text-3": "SHEFKO produces beef doner, chicken doner, canned meat, and kazan kebab products using modern technologies. Our products are high-quality, halal, and safe, undergoing strict quality control. Each product stands out with its rich taste and high standards. SHEFKO is a perfect combination of modern design, trust, and true flavor.",
         "sertificate": "OUR CERTIFICATES"
     },
+    "why": {
+        "subtitle": "Why Choose Us",
+        "title": "Why SHEFKO",
+        "advanced": {
+            "title": "Advanced Technology",
+            "text": "Our products are manufactured using advanced thermal processing technology that ensures food safety, quality preservation, and extended shelf life without chemical preservatives."
+        },
+        "meat": {
+            "title": "Premium Meat Selection",
+            "text": "We use carefully selected premium meat cuts combined with traditional recipes to deliver authentic taste and nutritional value."
+        },
+        "packaging": {
+            "title": "Smart Packaging",
+            "text": "Easy-Open packaging technology provides convenience, durability, and protection during transportation and storage."
+        },
+        "export": {
+            "title": "Export Ready Standards",
+            "text": "All production processes comply with international quality and safety requirements, making SHEFKO products ready for global markets."
+        }
+    },
+    "production": {
+        "subtitle": "Production Process",
+        "title": "PRODUCTION TECHNOLOGY",
+        "main-title": "Advanced Sterilization Technology",
+        "main-text": "SHEFKO utilizes modern industrial sterilization systems designed to preserve product quality while ensuring complete food safety.\n\nEach product is vacuum-sealed and processed under controlled thermal conditions at 121°C, eliminating harmful microorganisms and providing long-term shelf stability without the use of artificial preservatives.",
+        "steps": {
+            "raw": {
+                "title": "Raw Materials",
+                "text": "Premium meat sourced from trusted suppliers."
+            },
+            "preparation": {
+                "title": "Preparation",
+                "text": "Carefully processed according to strict quality standards."
+            },
+            "vacuum": {
+                "title": "Vacuum Sealing",
+                "text": "Products are sealed to preserve freshness and flavor."
+            },
+            "sterilization": {
+                "title": "Sterilization",
+                "text": "Processed at 121°C under controlled conditions."
+            },
+            "quality": {
+                "title": "Quality Control",
+                "text": "Every batch undergoes inspection and testing."
+            },
+            "distribution": {
+                "title": "Distribution",
+                "text": "Prepared for domestic and international markets."
+            }
+        }
+    },
     "footer": {
         "title": "The taste, quality, and trust you are looking for... All in one place – SHEFKO!",
         "secret": "All rights reserved",

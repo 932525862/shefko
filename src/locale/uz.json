@@ -55,6 +55,58 @@
         "text-3": "SHEFKO doner go‘shtli, doner tovuqli, tushonka va qozon kabob mahsulotlarini zamonaviy texnologiyalar asosida ishlab chiqaradi. Mahsulotlarimiz yuqori sifatli, halol va xavfsiz bo‘lib, qat’iy nazoratdan o‘tkaziladi. Har bir mahsulotimiz o‘zining boy ta’mi va sifat darajasi bilan ajralib turadi. SHEFKO – bu zamonaviy dizayn, ishonch va haqiqiy mazaning uyg‘unligi.",
         "sertificate": "BIZNING SERTIFIKATLARIMIZ"
     },
+    "why": {
+        "subtitle": "Nima uchun SHEFKO",
+        "title": "Nima uchun SHEFKO",
+        "advanced": {
+            "title": "Advanced Technology",
+            "text": "Mahsulotlarimiz oziq-ovqat xavfsizligini, sifatini va kimyoviy konservantlarsiz uzoq muddatli saqlashni ta'minlaydigan ilg'or issiqlik qayta ishlash texnologiyasidan foydalanib ishlab chiqariladi."
+        },
+        "meat": {
+            "title": "Premium Meat Selection",
+            "text": "Biz an'anaviy retseptlar bilan birlashtirilgan yuqori sifatli go'sht turlaridan foydalanib, haqiqiy ta'm va oziqlik qiymatini taqdim etamiz."
+        },
+        "packaging": {
+            "title": "Smart Packaging",
+            "text": "Oson ochiladigan qadoqlash texnologiyasi tashish va saqlash paytida qulaylik, mustahkamlik va himoyani ta'minlaydi."
+        },
+        "export": {
+            "title": "Export Ready Standards",
+            "text": "Barcha ishlab chiqarish jarayonlari xalqaro sifat va xavfsizlik talablariga javob beradi, bu esa SHEFKO mahsulotlarini global bozorlarga tayyor qiladi."
+        }
+    },
+    "production": {
+        "subtitle": "Ishlab chiqarish jarayoni",
+        "title": "PRODUCTION TECHNOLOGY",
+        "main-title": "Ilg'or sterilizatsiya texnologiyasi",
+        "main-text": "SHEFKO oziq-ovqat xavfsizligini ta'minlash va mahsulot sifatini saqlashga mo'ljallangan zamonaviy sanoat sterilizatsiya tizimlaridan foydalanadi.\n\nHar bir mahsulot vakuum bilan yopiladi va 121°C da nazorat ostidagi issiqlik sharoitida qayta ishlanadi — zararli mikroorganizmlarni yo'q qiladi va sun'iy konservantlarsiz uzoq muddatli saqlanishni ta'minlaydi.",
+        "steps": {
+            "raw": {
+                "title": "Xom ashyo",
+                "text": "Ishonchli ta'minotchilardan olingan premium go'sht."
+            },
+            "preparation": {
+                "title": "Tayyorlash",
+                "text": "Qat'iy sifat standartlariga muvofiq ehtiyotkorlik bilan qayta ishlangan."
+            },
+            "vacuum": {
+                "title": "Vakuum yopish",
+                "text": "Mahsulotlar yangilik va mazani saqlash uchun muhrlangan."
+            },
+            "sterilization": {
+                "title": "Sterilizatsiya",
+                "text": "Nazorat ostidagi sharoitda 121°C da qayta ishlangan."
+            },
+            "quality": {
+                "title": "Sifat nazorati",
+                "text": "Har bir partiya tekshiruv va sinovdan o'tkaziladi."
+            },
+            "distribution": {
+                "title": "Tarqatish",
+                "text": "Mahalliy va xalqaro bozorlarga tayyorlangan."
+            }
+        }
+    },
     "footer": {
         "title": "Siz izlagan ta'm, sifat va ishonch... Barchasi bir joyda jamlanadi – SHEFKO!",
         "secret": "Barcha huquqlar himoyalangan",
