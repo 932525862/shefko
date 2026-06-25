@@ -8,6 +8,7 @@ import Contact from '../components/Contact'
 import Taqvo from '../components/Taqvo'
 import SwiperSection from '../components/swiper/SwiperSection'
 import Sertifikat from "../components/Sertifikat"
+import RevealSection from '../components/ui/RevealSection'
 import {
   SkSwiper,
   SkWhy,
@@ -28,62 +29,94 @@ const Home = ({ isOpen, setIsOpen, openModal }) => {
 
   return (
     <main>
-      {/* 1. Hero — always visible, no skeleton needed */}
+      {/* 1. Hero — scroll animatsiyasiz */}
       <Hero isOpen={isOpen} setIsOpen={setIsOpen} openModal={openModal} />
 
       {/* 2. About SHEFKO */}
-      {ready ? (
-        <div className="fade-in"><SwiperSection /></div>
-      ) : (
-        <SkSwiper />
-      )}
+      <section id="about">
+        {ready ? (
+          <RevealSection>
+            <SwiperSection />
+          </RevealSection>
+        ) : (
+          <SkSwiper />
+        )}
+      </section>
 
       {/* 3. Why SHEFKO */}
-      {ready ? (
-        <div className="fade-in"><WhyShefko /></div>
-      ) : (
-        <SkWhy />
-      )}
+      <section id="why">
+        {ready ? (
+          <RevealSection>
+            <WhyShefko />
+          </RevealSection>
+        ) : (
+          <SkWhy />
+        )}
+      </section>
 
       {/* 4. Products */}
-      {ready ? (
-        <div className="fade-in"><Taqvo /></div>
-      ) : (
-        <SkTaqvo />
-      )}
+      <section id="products">
+        {ready ? (
+          <RevealSection>
+            <Taqvo />
+          </RevealSection>
+        ) : (
+          <SkTaqvo />
+        )}
+      </section>
 
       {/* 5. Production Technology */}
-      {ready ? (
-        <div className="fade-in"><ProductionTechnology /></div>
-      ) : (
-        <SkProduction />
-      )}
+      <section id="production">
+        {ready ? (
+          <RevealSection>
+            <ProductionTechnology />
+          </RevealSection>
+        ) : (
+          <SkProduction />
+        )}
+      </section>
 
       {/* 6. Certificates */}
-      {ready ? (
-        <div className="fade-in"><Sertifikat /></div>
-      ) : (
-        <SkCertificates />
-      )}
+      <section id="certificates">
+        {ready ? (
+          <RevealSection>
+            <Sertifikat />
+          </RevealSection>
+        ) : (
+          <SkCertificates />
+        )}
+      </section>
 
       {/* 7. Export Readiness */}
-      {ready ? (
-        <div className="fade-in"><ExportReadiness /></div>
-      ) : (
-        <SkExport />
-      )}
+      <section id="export">
+        {ready ? (
+          <RevealSection>
+            <ExportReadiness />
+          </RevealSection>
+        ) : (
+          <SkExport />
+        )}
+      </section>
 
       {/* 8. Become Distributor */}
-      {ready ? (
-        <div className="fade-in"><BecomeDistributor /></div>
-      ) : (
-        <SkDistributor />
-      )}
+      <section id="distributor">
+        {ready ? (
+          <RevealSection>
+            <BecomeDistributor />
+          </RevealSection>
+        ) : (
+          <SkDistributor />
+        )}
+      </section>
 
       {/* 9. Contact */}
-      {ready ? (
-        <div className="fade-in"><Contact /></div>
-      ) : null}
+      <section id="contact">
+        {ready ? (
+          <RevealSection>
+            <Contact />
+          </RevealSection>
+        ) : null}
+      </section>
     </main>
   )
 }

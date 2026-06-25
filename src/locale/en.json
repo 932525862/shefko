@@ -2,7 +2,15 @@
     "header": {
         "home": "Home",
         "about": "About Us",
-        "btn": "Contact"
+        "btn": "Contact",
+        "swiper": "About SHEFKO",
+        "why": "Why SHEFKO",
+        "products": "Products",
+        "production": "Production",
+        "certificates": "Certificates",
+        "export": "Export",
+        "distributor": "Distributor",
+        "contact": "Contact Us"
     },
     "hero": {
         "title": "Delicious and Natural Products! Quality and Trust!",

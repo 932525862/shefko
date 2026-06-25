@@ -2,7 +2,15 @@
     "header": {
         "home": "Bosh sahifa",
         "about": "Biz haqimizda",
-        "btn": "Bog'lanish"
+        "btn": "Bog'lanish",
+        "swiper": "SHEFKO haqida",
+        "why": "Nima uchun SHEFKO",
+        "products": "Mahsulotlar",
+        "production": "Ishlab chiqarish",
+        "certificates": "Sertifikatlar",
+        "export": "Eksport",
+        "distributor": "Distribyutor",
+        "contact": "Aloqa"
     },
     "hero": {
         "title": "Mazali va tabiiy mahsulotlar! Sifat va ishonch!",
