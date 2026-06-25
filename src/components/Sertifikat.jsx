@@ -1,4 +1,5 @@
 import React from "react";
+import { ImgSkeleton } from "./ui/Skeleton";
 
 import sertificatImg1 from "../assets/sert1.jpg";
 import sertificatImg2 from "../assets/sert4.png";
@@ -24,10 +25,9 @@ const Sertifikat = () => {
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-            <img src={sertificatImg1} alt="taqvo sertificat image" />
-            <img src={sertificatImg2} alt="taqvo sertificat image" />
-            <img src={sertificatImg3} alt="taqvo sertificat image" />
-         
+            <ImgSkeleton src={sertificatImg1} alt="taqvo sertificat image" imgClass="w-full h-full object-cover" />
+            <ImgSkeleton src={sertificatImg2} alt="taqvo sertificat image" imgClass="w-full h-full object-cover" />
+            <ImgSkeleton src={sertificatImg3} alt="taqvo sertificat image" imgClass="w-full h-full object-cover" />
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import advancedImg from "../../assets/1.jpg";
 import meatImg from "../../assets/mit.jpg";
 import packagingImg from "../../assets/7.jpg";
 import exportImg from "../../assets/yet.jpg";
+import { ImgSkeleton } from "../ui/Skeleton";
 
 const cards = [
   { key: "advanced", img: advancedImg },
@@ -37,13 +38,12 @@ const WhyShefko = () => {
               className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group"
             >
               {/* Card image */}
-              <div className="h-52 overflow-hidden">
-                <img
-                  src={img}
-                  alt={t(`why.${key}.title`)}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
+              <ImgSkeleton
+                src={img}
+                alt={t(`why.${key}.title`)}
+                className="h-52"
+                imgClass="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
 
               {/* Red top accent bar */}
               <div className="h-1 bg-[#c0392b]" />
