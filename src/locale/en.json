@@ -107,6 +107,70 @@
             }
         }
     },
+    "export": {
+        "subtitle": "Export Readiness",
+        "header": "Ready For International Markets",
+        "text": "SHEFKO products are designed and manufactured to meet the requirements of global distribution channels and international trade partners.",
+        "map-label": "SHEFKO Global Export Map",
+        "legend-market": "Export market",
+        "legend-route": "Export route",
+        "cards": {
+            "international": {
+                "title": "International Standards",
+                "text": "Manufactured according to globally recognized food safety standards."
+            },
+            "shelf": {
+                "title": "Long Shelf Life",
+                "text": "Products maintain quality and safety for extended periods."
+            },
+            "logistics": {
+                "title": "Logistics Friendly",
+                "text": "Optimized packaging for transportation and storage."
+            },
+            "halal": {
+                "title": "HALAL Compliance",
+                "text": "Suitable for halal-focused international markets."
+            }
+        },
+        "advantages-title": "Export Advantages",
+        "advantages": [
+            "Certified Production",
+            "Long Shelf Stability",
+            "Easy Transportation",
+            "Consistent Product Quality",
+            "International Market Compliance"
+        ]
+    },
+    "distributor": {
+        "subtitle": "Partnership Opportunity",
+        "title": "Become Our Distribution Partner",
+        "text1": "We are actively seeking distributors, wholesalers, supermarket chains, and food service partners interested in representing SHEFKO products in international markets.",
+        "text2": "Partner with SHEFKO and gain access to a growing portfolio of premium ready-to-eat meat products developed for modern consumers and global retail channels.",
+        "b1": "Access to premium ready-to-eat product portfolio",
+        "b2": "Competitive wholesale pricing and flexible terms",
+        "b3": "Marketing and promotional support provided",
+        "b4": "Dedicated account management team",
+        "b5": "Halal-certified products for Muslim-majority markets",
+        "form-title": "Send a Partnership Request",
+        "f": {
+            "company": "Company Name",
+            "company-err": "Enter company name",
+            "country": "Country",
+            "country-err": "Enter country",
+            "contact": "Contact Person",
+            "contact-err": "Enter contact person",
+            "email": "Email Address",
+            "email-err": "Enter email",
+            "phone": "Phone Number",
+            "phone-err": "Enter phone number",
+            "btype": "Business Type",
+            "btype-err": "Select business type",
+            "volume": "Expected Monthly Volume",
+            "volume-err": "Select monthly volume",
+            "message": "Message (optional)",
+            "btn": "Send Request"
+        }
+    },
     "footer": {
         "title": "The taste, quality, and trust you are looking for... All in one place – SHEFKO!",
         "secret": "All rights reserved",

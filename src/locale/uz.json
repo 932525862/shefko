@@ -107,6 +107,70 @@
             }
         }
     },
+    "export": {
+        "subtitle": "Eksport tayyorligi",
+        "header": "Xalqaro bozorlar uchun tayyor",
+        "text": "SHEFKO mahsulotlari global tarqatish kanallari va xalqaro savdo hamkorlarining talablarini qondirish uchun ishlab chiqilgan va ishlab chiqarilgan.",
+        "map-label": "SHEFKO global eksport xaritasi",
+        "legend-market": "Eksport bozori",
+        "legend-route": "Eksport yo'nalishi",
+        "cards": {
+            "international": {
+                "title": "Xalqaro standartlar",
+                "text": "Jahon miqyosida tan olingan oziq-ovqat xavfsizligi standartlariga muvofiq ishlab chiqarilgan."
+            },
+            "shelf": {
+                "title": "Uzoq saqlash muddati",
+                "text": "Mahsulotlar uzoq vaqt davomida sifat va xavfsizligini saqlaydi."
+            },
+            "logistics": {
+                "title": "Logistika uchun qulay",
+                "text": "Tashish va saqlash uchun optimallashtirilgan qadoqlash."
+            },
+            "halal": {
+                "title": "HALOL muvofiqlik",
+                "text": "Halolga yo'naltirilgan xalqaro bozorlar uchun mos."
+            }
+        },
+        "advantages-title": "Eksport afzalliklari",
+        "advantages": [
+            "Sertifikatlangan ishlab chiqarish",
+            "Uzoq muddatli saqlash",
+            "Oson tashish",
+            "Doimiy mahsulot sifati",
+            "Xalqaro bozor muvofiqiyati"
+        ]
+    },
+    "distributor": {
+        "subtitle": "Hamkorlik imkoniyati",
+        "title": "Bizning tarqatuvchi hamkorimiz bo'ling",
+        "text1": "Biz SHEFKO mahsulotlarini xalqaro bozorlarda vakillik qilishga qiziquvchi distribyutorlar, ulgurji savdogarlar, supermarket tarmoqlari va ovqatlanish xizmati hamkorlarini faol qidirmoqdamiz.",
+        "text2": "SHEFKO bilan hamkorlik qiling va zamonaviy iste'molchilar hamda global chakana savdo kanallari uchun ishlab chiqilgan premium tayyor go'sht mahsulotlari portfeliga kirish imkoniyatini oling.",
+        "b1": "Premium tayyor mahsulotlar portfeliga kirish",
+        "b2": "Raqobatbardosh ulgurji narxlar va moslashuvchan shartlar",
+        "b3": "Marketing va reklama qo'llab-quvvatlash",
+        "b4": "Maxsus hisob boshqaruv jamoasi",
+        "b5": "Musulmon ko'pchilikli bozorlar uchun halol mahsulotlar",
+        "form-title": "Hamkorlik so'rovi yuborish",
+        "f": {
+            "company": "Kompaniya nomi",
+            "company-err": "Kompaniya nomini kiriting",
+            "country": "Mamlakat",
+            "country-err": "Mamlakatni kiriting",
+            "contact": "Aloqa shaxsi",
+            "contact-err": "Aloqa shaxsini kiriting",
+            "email": "Email manzil",
+            "email-err": "Email kiriting",
+            "phone": "Telefon raqami",
+            "phone-err": "Telefon raqam kiriting",
+            "btype": "Biznes turi",
+            "btype-err": "Biznes turini tanlang",
+            "volume": "Kutilayotgan oylik hajm",
+            "volume-err": "Oylik hajmni tanlang",
+            "message": "Xabar (ixtiyoriy)",
+            "btn": "So'rov yuborish"
+        }
+    },
     "footer": {
         "title": "Siz izlagan ta'm, sifat va ishonch... Barchasi bir joyda jamlanadi – SHEFKO!",
         "secret": "Barcha huquqlar himoyalangan",
