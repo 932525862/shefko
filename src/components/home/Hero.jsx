@@ -1,6 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import buka from "../../assets/shefkologo.png";
+import buka from "../../assets/shefko2.png";
 import video from "../../assets/bg.mp4";
 import { useTranslation } from "react-i18next";
 const Hero = ({ openModal }) => {
@@ -32,7 +32,7 @@ const Hero = ({ openModal }) => {
             {t("hero.text")}
             </div>
             <div className="w-[158px] h-[158px] rounded-full border border-[#ece6e6] p-[10px] cursor-pointer relative">
-              <div className="lg:flex w-[145px] h-[145px] rounded-full bg-red-950 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden items-center justify-center">
+              <div className="lg:flex w-[145px] h-[145px] rounded-full bg-[#ece6e6]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden items-center justify-center">
                 <img className="w-[110px] h-[110px]" src={buka} alt="" />
               </div>
               <div
