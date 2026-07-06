@@ -68,7 +68,7 @@ const ProductionTechnology = () => {
               <div>
                 <div className="text-white text-xl font-black oswald leading-none">121°C</div>
                 <div className="text-red-200 text-[11px] mt-0.5 tracking-wide">
-                  Sterilization Process
+                  {t("production.process-label")}
                 </div>
               </div>
             </div>
