@@ -6,7 +6,7 @@ import Layout from "./layout/Layout";
 import { useState, useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Animats from "./assets/gifd.gif";
+import Animats from "./assets/shefko.gif";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
