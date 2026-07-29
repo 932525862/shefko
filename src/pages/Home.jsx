@@ -9,10 +9,12 @@ import Taqvo from '../components/Taqvo'
 import SwiperSection from '../components/swiper/SwiperSection'
 import Sertifikat from "../components/Sertifikat"
 import RevealSection from '../components/ui/RevealSection'
+import DonerProduct from '../components/home/DonerProduct'
 import {
   SkSwiper,
   SkWhy,
   SkTaqvo,
+  SkDoner,
   SkProduction,
   SkCertificates,
   SkExport,
@@ -62,6 +64,17 @@ const Home = ({ isOpen, setIsOpen, openModal }) => {
           </RevealSection>
         ) : (
           <SkTaqvo />
+        )}
+      </section>
+
+      {/* 4.5. DÖNER Detailed Product Specs */}
+      <section id="doner">
+        {ready ? (
+          <RevealSection>
+            <DonerProduct />
+          </RevealSection>
+        ) : (
+          <SkDoner />
         )}
       </section>
 

@@ -220,3 +220,33 @@ export const SkDistributor = () => (
     </div>
   </section>
 );
+
+/* 8. DonerProduct */
+export const SkDoner = () => (
+  <section className="py-16 sm:py-24 bg-gray-900">
+    <div className="container">
+      <div className="flex flex-col items-center gap-3 mb-12">
+        <Sk className="h-4 w-32 bg-gray-800" />
+        <Sk className="h-10 w-48 bg-gray-800" />
+        <Sk className="h-1 w-24 bg-gray-800" />
+      </div>
+      <div className="flex justify-center gap-3 mb-12">
+        {[...Array(5)].map((_, i) => (
+          <Sk key={i} className="h-10 w-24 rounded-xl bg-gray-800" />
+        ))}
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 bg-gray-800/40 rounded-3xl p-8">
+        <div className="lg:col-span-5 flex flex-col items-center gap-4">
+          <Sk className="w-full max-w-md aspect-square rounded-2xl bg-gray-800" />
+        </div>
+        <div className="lg:col-span-7 flex flex-col gap-6">
+          <Sk className="h-10 w-3/4 bg-gray-800" />
+          <Sk className="h-6 w-1/2 bg-gray-800" />
+          <Sk className="h-24 w-full rounded-2xl bg-gray-800" />
+          <Sk className="h-32 w-full rounded-2xl bg-gray-800" />
+        </div>
+      </div>
+    </div>
+  </section>
+);
+
