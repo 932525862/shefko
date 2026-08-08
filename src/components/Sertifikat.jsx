@@ -4,7 +4,7 @@ import { ImgSkeleton } from "./ui/Skeleton";
 import sertificatImg1 from "../assets/sert1.jpg";
 import sertificatImg2 from "../assets/sert4.png";
 import sertificatImg3 from "../assets/sert3.png";
-
+import sertificatImg4 from "../assets/sertidifa.jpg";
 import backimg from "../assets/img2/7.jpg";
 import { useTranslation } from "react-i18next";
 
@@ -28,6 +28,7 @@ const Sertifikat = () => {
             <ImgSkeleton src={sertificatImg1} alt="taqvo sertificat image" imgClass="w-full h-full object-cover" />
             <ImgSkeleton src={sertificatImg2} alt="taqvo sertificat image" imgClass="w-full h-full object-cover" />
             <ImgSkeleton src={sertificatImg3} alt="taqvo sertificat image" imgClass="w-full h-full object-cover" />
+            <ImgSkeleton src={sertificatImg4} alt="taqvo sertificat image" imgClass="w-full h-full object-cover" />
           </div>
         </div>
       </div>

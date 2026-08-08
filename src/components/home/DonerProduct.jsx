@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import tushoImg from "../../assets/tusho.jpg";
+import tushoImg from "../../assets/mol.jpg";
 import skefkoImg from "../../assets/skefko1.png";
-import kavobImg from "../../assets/kavob.jpg";
+import kavobImg from "../../assets/tovuq.jpg";
 import { ImgSkeleton } from "../ui/Skeleton";
 import {
   FaFireAlt,
@@ -31,7 +31,7 @@ const products = {
     id: "beef_tushonka",
     badgeIcon: GiMeat,
     tabLabel: "Mol Tushonka",
-    images: [tushoImg, skefkoImg, kavobImg],
+    images: [tushoImg],
     languages: {
       uz: {
         code: "uz",
@@ -199,7 +199,7 @@ const products = {
     id: "beef_doner",
     badgeIcon: GiMeatHook,
     tabLabel: "Mol Donar Konservasi",
-    images: [kavobImg, tushoImg, skefkoImg],
+    images: [tushoImg],
     languages: {
       uz: {
         code: "uz",
@@ -377,7 +377,7 @@ const products = {
     id: "chicken_doner",
     badgeIcon: FaDrumstickBite,
     tabLabel: "Tovuq Donar Konservasi",
-    images: [skefkoImg, tushoImg, kavobImg],
+    images: [kavobImg],
     languages: {
       uz: {
         code: "uz",
@@ -597,11 +597,10 @@ const DonerProduct = () => {
                 <button
                   key={pKey}
                   onClick={() => handleProductSwitch(pKey)}
-                  className={`flex items-center gap-2.5 px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm transition-all duration-300 ${
-                    isSelected
-                      ? "bg-red-800 text-white shadow-lg shadow-red-800/30 scale-102"
-                      : "text-gray-600 hover:text-red-800 hover:bg-gray-100"
-                  }`}
+                  className={`flex items-center gap-2.5 px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm transition-all duration-300 ${isSelected
+                    ? "bg-red-800 text-white shadow-lg shadow-red-800/30 scale-102"
+                    : "text-gray-600 hover:text-red-800 hover:bg-gray-100"
+                    }`}
                 >
                   <IconComp className={`text-base ${isSelected ? "text-[#d1ab7d]" : "text-red-800"}`} />
                   <span>{pItem.tabLabel}</span>
@@ -620,11 +619,10 @@ const DonerProduct = () => {
               <button
                 key={code}
                 onClick={() => setActiveLang(code)}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-xs sm:text-sm transition-all duration-300 ${
-                  isActive
-                    ? "bg-[#441118] text-white shadow-md border border-[#a78861]"
-                    : "bg-white text-gray-700 border border-gray-200 hover:border-red-800/40 hover:bg-gray-50"
-                }`}
+                className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-xs sm:text-sm transition-all duration-300 ${isActive
+                  ? "bg-[#441118] text-white shadow-md border border-[#a78861]"
+                  : "bg-white text-gray-700 border border-gray-200 hover:border-red-800/40 hover:bg-gray-50"
+                  }`}
               >
                 <span className="text-base">{item.flag}</span>
                 <span>{item.label}</span>
@@ -636,7 +634,7 @@ const DonerProduct = () => {
 
         {/* ── 3. Main Split Card Container (Matches Site Aesthetics) ── */}
         <div className="grid grid-cols-1 lg:grid-cols-12 rounded-3xl overflow-hidden shadow-2xl bg-white border border-gray-200">
-          
+
           {/* Left Column: Red Brand Panel & Image Showcase */}
           <div className="lg:col-span-5 bg-red-800 p-8 lg:p-10 text-white relative flex flex-col items-center justify-between overflow-hidden">
             {/* Decorative Background Elements */}
@@ -670,11 +668,10 @@ const DonerProduct = () => {
                 <button
                   key={idx}
                   onClick={() => setSelectedImg(imgSrc)}
-                  className={`w-14 h-14 rounded-xl overflow-hidden border-2 transition-all duration-300 ${
-                    selectedImg === imgSrc
-                      ? "border-[#d1ab7d] scale-105 shadow-md"
-                      : "border-white/30 opacity-60 hover:opacity-100"
-                  }`}
+                  className={`w-14 h-14 rounded-xl overflow-hidden border-2 transition-all duration-300 ${selectedImg === imgSrc
+                    ? "border-[#d1ab7d] scale-105 shadow-md"
+                    : "border-white/30 opacity-60 hover:opacity-100"
+                    }`}
                 >
                   <img src={imgSrc} alt="thumb" className="w-full h-full object-cover" />
                 </button>
@@ -690,9 +687,8 @@ const DonerProduct = () => {
 
           {/* Right Column: Detailed Product Info */}
           <div
-            className={`lg:col-span-7 p-8 lg:p-12 flex flex-col justify-between ${
-              langData.dir === "rtl" ? "text-right" : "text-left"
-            }`}
+            className={`lg:col-span-7 p-8 lg:p-12 flex flex-col justify-between ${langData.dir === "rtl" ? "text-right" : "text-left"
+              }`}
             dir={langData.dir}
           >
             {/* Title & Tagline */}
