@@ -10,11 +10,13 @@ import SwiperSection from '../components/swiper/SwiperSection'
 import Sertifikat from "../components/Sertifikat"
 import RevealSection from '../components/ui/RevealSection'
 import DonerProduct from '../components/home/DonerProduct'
+import HeatingGuide from '../components/home/HeatingGuide'
 import {
   SkSwiper,
   SkWhy,
   SkTaqvo,
   SkDoner,
+  SkHeating,
   SkProduction,
   SkCertificates,
   SkExport,
@@ -75,6 +77,17 @@ const Home = ({ isOpen, setIsOpen, openModal }) => {
           </RevealSection>
         ) : (
           <SkDoner />
+        )}
+      </section>
+
+      {/* 4.6. Heating Guide Video Section */}
+      <section id="heating">
+        {ready ? (
+          <RevealSection>
+            <HeatingGuide />
+          </RevealSection>
+        ) : (
+          <SkHeating />
         )}
       </section>
 

@@ -24,10 +24,7 @@ const Contact = () => {
             </p>
             <div className="text-[15px] text-[#fff] mt-[5px] space-y-[5px]">
               <p>
-                <a href="tel:+998957724444">Tel: +998957724444</a>
-              </p>
-              <p>
-                <a href="tel:+998996440101">Tel: +998996440101</a>
+                <a href="tel:+998993005700" className="hover:underline">Tel: +998 99 300 57 00</a>
               </p>
             </div>
           </div>

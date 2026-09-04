@@ -10,6 +10,7 @@
         "certificates": "Certificates",
         "export": "Export",
         "distributor": "Distributor",
+        "heating": "Heating Guide",
         "contact": "Contact Us"
     },
     "hero": {
@@ -182,6 +183,7 @@
     },
     "footer": {
         "title": "The taste, quality, and trust you are looking for... All in one place – SHEFKO!",
+        "contact": "For contact",
         "secret": "All rights reserved",
         "by": ""
     }

@@ -21,7 +21,8 @@ import {
   FaDna,
   FaClock,
   FaSeedling,
-  FaCube
+  FaCube,
+  FaPlay
 } from "react-icons/fa";
 import { GiMeat, GiMeatHook, GiMuscleUp, GiDroplets, GiWheat } from "react-icons/gi";
 
@@ -798,6 +799,12 @@ const DonerProduct = () => {
                     <FaFireAlt /> {langData.recommendationTitle}
                   </span>
                   <p className="text-red-100 font-medium leading-snug">{langData.recommendationText}</p>
+                  <a
+                    href="#heating"
+                    className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 rounded-full bg-[#a78861] hover:bg-[#d1ab7d] text-white text-[11px] font-semibold transition-all shadow-xs"
+                  >
+                    <FaPlay className="text-[9px]" /> Videoni ko'rish
+                  </a>
                 </div>
               </div>
             </div>

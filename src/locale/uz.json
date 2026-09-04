@@ -10,6 +10,7 @@
         "certificates": "Sertifikatlar",
         "export": "Eksport",
         "distributor": "Distribyutor",
+        "heating": "Isitish yo'riqnomasi",
         "contact": "Aloqa"
     },
     "hero": {
@@ -182,6 +183,7 @@
     },
     "footer": {
         "title": "Siz izlagan ta'm, sifat va ishonch... Barchasi bir joyda jamlanadi – SHEFKO!",
+        "contact": "Aloqa uchun",
         "secret": "Barcha huquqlar himoyalangan",
         "by": ""
     }

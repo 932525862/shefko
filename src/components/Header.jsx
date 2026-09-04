@@ -89,6 +89,11 @@ const Header = ({openModal}) => {
               </a>
             </li>
             <li>
+              <a href="/#heating" onClick={() => setOpen(false)}>
+                {t("header.heating", "Isitish yo'riqnomasi")}
+              </a>
+            </li>
+            <li>
               <a href="/#production" onClick={() => setOpen(false)}>
                 {t("header.production")}
               </a>
@@ -143,6 +148,9 @@ const Header = ({openModal}) => {
                 </li>
                 <li>
                   <a href="/#doner">DÖNER</a>
+                </li>
+                <li>
+                  <a href="/#heating">{t("header.heating", "Isitish yo'riqnomasi")}</a>
                 </li>
                 <li>
                   <a href="/#certificates">{t("header.certificates")}</a>

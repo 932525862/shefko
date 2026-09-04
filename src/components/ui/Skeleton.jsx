@@ -250,3 +250,26 @@ export const SkDoner = () => (
   </section>
 );
 
+/* 9. HeatingGuide */
+export const SkHeating = () => (
+  <section className="py-16 sm:py-24 bg-gray-900">
+    <div className="container">
+      <div className="flex flex-col items-center gap-3 mb-12">
+        <Sk className="h-4 w-36 bg-gray-800" />
+        <Sk className="h-10 w-64 bg-gray-800" />
+        <Sk className="h-1 w-20 bg-gray-800" />
+      </div>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <div className="lg:col-span-7">
+          <Sk className="w-full aspect-video rounded-3xl bg-gray-800" />
+        </div>
+        <div className="lg:col-span-5 flex flex-col gap-4">
+          <Sk className="h-44 w-full rounded-3xl bg-gray-800" />
+          <Sk className="h-24 w-full rounded-2xl bg-gray-800" />
+        </div>
+      </div>
+    </div>
+  </section>
+);
+
+

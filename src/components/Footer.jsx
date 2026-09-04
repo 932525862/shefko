@@ -2,6 +2,7 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { LiaTelegram } from "react-icons/lia";
+import { FiPhone } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
@@ -13,7 +14,15 @@ const Footer = () => {
           <p className="max-w-[564px] text-center">
           {t("footer.title")}
           </p>
-		  
+
+          <div className="flex items-center gap-x-2 text-white text-base sm:text-lg">
+            <FiPhone className="text-xl" />
+            <span>{t("footer.contact")}:</span>
+            <a href="tel:+998993005700" className="font-semibold hover:underline">
+              +998 99 300 57 00
+            </a>
+          </div>
+
           <div className="flex gap-x-5 text-white/60">
             <Link to={"https://www.instagram.com/blog_abdulaziz?igsh=MTJmbG85emd1ZWl1Mw%3D%3D&utm_source=qr"} className="text-2xl hover:scale-105">
               <FaInstagram />
