@@ -11,7 +11,9 @@
         "export": "Export",
         "distributor": "Distributor",
         "heating": "Heating Guide",
-        "contact": "Contact Us"
+        "contact": "Contact Us",
+        "feedback": "Feedback",
+        "phone": "+998 55 511 80 80"
     },
     "hero": {
         "title": "Delicious and Natural Products! Quality and Trust!",
@@ -185,6 +187,28 @@
         "title": "The taste, quality, and trust you are looking for... All in one place – SHEFKO!",
         "contact": "For contact",
         "secret": "All rights reserved",
-        "by": ""
+        "by": "",
+        "nav-products": "Products",
+        "nav-export": "Export",
+        "nav-production": "Production",
+        "nav-about": "About Us",
+        "nav-feedback": "Feedback"
+    },
+    "feedback": {
+        "title": "Ideas, Requests, Suggestions & Complaints",
+        "subtitle": "Your opinion matters to us! Select a category and send your message.",
+        "tab-idea": "Idea",
+        "tab-request": "Request",
+        "tab-suggestion": "Suggestion",
+        "tab-complaint": "Complaint",
+        "name": "Your Name",
+        "name-err": "Please enter your name",
+        "phone": "Your Phone Number",
+        "phone-err": "Please enter phone number",
+        "message": "Your Message",
+        "message-err": "Please enter your message",
+        "btn": "Send",
+        "success": "Your message has been sent successfully!",
+        "error": "An error occurred, please try again."
     }
 }

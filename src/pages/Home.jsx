@@ -1,26 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import Hero from '../components/home/Hero'
-import WhyShefko from '../components/home/WhyShefko'
-import ProductionTechnology from '../components/home/ProductionTechnology'
-import ExportReadiness from '../components/home/ExportReadiness'
-import BecomeDistributor from '../components/home/BecomeDistributor'
 import Contact from '../components/Contact'
-import Taqvo from '../components/Taqvo'
 import SwiperSection from '../components/swiper/SwiperSection'
 import Sertifikat from "../components/Sertifikat"
 import RevealSection from '../components/ui/RevealSection'
-import DonerProduct from '../components/home/DonerProduct'
-import HeatingGuide from '../components/home/HeatingGuide'
 import {
   SkSwiper,
-  SkWhy,
-  SkTaqvo,
-  SkDoner,
-  SkHeating,
-  SkProduction,
   SkCertificates,
-  SkExport,
-  SkDistributor,
 } from '../components/ui/Skeleton'
 
 const Home = ({ isOpen, setIsOpen, openModal }) => {
@@ -33,7 +19,7 @@ const Home = ({ isOpen, setIsOpen, openModal }) => {
 
   return (
     <main>
-      {/* 1. Hero — scroll animatsiyasiz */}
+      {/* 1. Hero */}
       <Hero isOpen={isOpen} setIsOpen={setIsOpen} openModal={openModal} />
 
       {/* 2. About SHEFKO */}
@@ -47,62 +33,7 @@ const Home = ({ isOpen, setIsOpen, openModal }) => {
         )}
       </section>
 
-      {/* 3. Why SHEFKO */}
-      <section id="why">
-        {ready ? (
-          <RevealSection>
-            <WhyShefko />
-          </RevealSection>
-        ) : (
-          <SkWhy />
-        )}
-      </section>
-
-      {/* 4. Products */}
-      <section id="products">
-        {ready ? (
-          <RevealSection>
-            <Taqvo />
-          </RevealSection>
-        ) : (
-          <SkTaqvo />
-        )}
-      </section>
-
-      {/* 4.5. DÖNER Detailed Product Specs */}
-      <section id="doner">
-        {ready ? (
-          <RevealSection>
-            <DonerProduct />
-          </RevealSection>
-        ) : (
-          <SkDoner />
-        )}
-      </section>
-
-      {/* 4.6. Heating Guide Video Section */}
-      <section id="heating">
-        {ready ? (
-          <RevealSection>
-            <HeatingGuide />
-          </RevealSection>
-        ) : (
-          <SkHeating />
-        )}
-      </section>
-
-      {/* 5. Production Technology */}
-      <section id="production">
-        {ready ? (
-          <RevealSection>
-            <ProductionTechnology />
-          </RevealSection>
-        ) : (
-          <SkProduction />
-        )}
-      </section>
-
-      {/* 6. Certificates */}
+      {/* 3. Certificates */}
       <section id="certificates">
         {ready ? (
           <RevealSection>
@@ -113,29 +44,7 @@ const Home = ({ isOpen, setIsOpen, openModal }) => {
         )}
       </section>
 
-      {/* 7. Export Readiness */}
-      <section id="export">
-        {ready ? (
-          <RevealSection>
-            <ExportReadiness />
-          </RevealSection>
-        ) : (
-          <SkExport />
-        )}
-      </section>
-
-      {/* 8. Become Distributor */}
-      <section id="distributor">
-        {ready ? (
-          <RevealSection>
-            <BecomeDistributor />
-          </RevealSection>
-        ) : (
-          <SkDistributor />
-        )}
-      </section>
-
-      {/* 9. Contact */}
+      {/* 4. Contact */}
       <section id="contact">
         {ready ? (
           <RevealSection>
@@ -148,3 +57,4 @@ const Home = ({ isOpen, setIsOpen, openModal }) => {
 }
 
 export default Home
+

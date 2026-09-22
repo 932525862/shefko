@@ -11,7 +11,9 @@
         "export": "Eksport",
         "distributor": "Distribyutor",
         "heating": "Isitish yo'riqnomasi",
-        "contact": "Aloqa"
+        "contact": "Aloqa",
+        "feedback": "Fikr & Taklif",
+        "phone": "+998 55 511 80 80"
     },
     "hero": {
         "title": "Mazali va tabiiy mahsulotlar! Sifat va ishonch!",
@@ -185,6 +187,28 @@
         "title": "Siz izlagan ta'm, sifat va ishonch... Barchasi bir joyda jamlanadi – SHEFKO!",
         "contact": "Aloqa uchun",
         "secret": "Barcha huquqlar himoyalangan",
-        "by": ""
+        "by": "",
+        "nav-products": "Mahsulotlar",
+        "nav-export": "Eksport",
+        "nav-production": "Ishlab chiqarish",
+        "nav-about": "Biz haqimizda",
+        "nav-feedback": "Fikr & Taklif"
+    },
+    "feedback": {
+        "title": "Fikr, Talab, Taklif va Shikoyatlar",
+        "subtitle": "Sizning fikringiz bizga muhim! Quyidagi kategoriyani tanlang va xabaringizni yuboring.",
+        "tab-idea": "Fikr",
+        "tab-request": "Talab",
+        "tab-suggestion": "Taklif",
+        "tab-complaint": "Shikoyat",
+        "name": "Ismingiz",
+        "name-err": "Ismingizni kiriting",
+        "phone": "Telefon raqamingiz",
+        "phone-err": "Telefon raqam kiriting",
+        "message": "Xabaringiz",
+        "message-err": "Xabar kiriting",
+        "btn": "Yuborish",
+        "success": "Xabaringiz muvaffaqiyatli yuborildi!",
+        "error": "Xatolik yuz berdi, qayta urinib ko'ring."
     }
 }
