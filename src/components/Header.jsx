@@ -67,7 +67,7 @@ const Header = ({ openModal }) => {
       {/* Mobile Drawer */}
       <div
         ref={menuRef}
-        className={`fixed h-screen w-[300px] bg-[#1a0305]/95 backdrop-blur-2xl z-[9999999] transition-all duration-300 border-l border-white/10 shadow-2xl ${
+        className={`fixed h-screen w-[300px] bg-[#110203] z-[9999999] transition-all duration-300 border-l border-white/10 shadow-2xl ${
           open ? "right-0" : "-right-full"
         }`}
       >
@@ -95,9 +95,9 @@ const Header = ({ openModal }) => {
                 to={to}
                 end={exact}
                 className={({ isActive }) =>
-                  `flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-[15px] transition-all duration-200 ${
+                  `flex items-center gap-3 px-4 py-3 font-semibold text-[14px] uppercase tracking-wide transition-all duration-200 ${
                     isActive
-                      ? "bg-[#a78861]/20 text-[#d1ab7d] border border-[#a78861]/30"
+                      ? "bg-[#c0392b] text-white"
                       : "text-white/70 hover:bg-white/5 hover:text-white"
                   }`
                 }
@@ -120,7 +120,7 @@ const Header = ({ openModal }) => {
             </a>
             <button
               onClick={() => { openModal(); setOpen(false); }}
-              className="w-full py-3 bg-gradient-to-r from-[#a78861] to-[#d1ab7d] text-white font-semibold rounded-xl hover:opacity-90 transition-opacity text-sm"
+              className="w-full py-3 bg-white text-[#110203] font-bold uppercase tracking-widest hover:bg-gray-200 transition-colors text-xs"
             >
               {t("header.btn")}
             </button>
@@ -129,28 +129,23 @@ const Header = ({ openModal }) => {
       </div>
 
       {/* Main Header Bar */}
-      <div className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? "py-0" : "py-[10px]"}`}>
-        <div className={`transition-all duration-300 ${scrolled ? "mx-0 rounded-none" : "container"}`}>
+      <div className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? "py-0" : "py-0 lg:py-[10px]"}`}>
+        <div className={`transition-all duration-300 ${scrolled ? "mx-0" : "container"}`}>
           <div
-            className={`bg-[#1a0305]/90 backdrop-blur-xl text-white flex justify-between items-center transition-all duration-300
+            className={`bg-[#110203] text-white flex justify-between items-center transition-all duration-300
             ${scrolled
               ? "px-5 lg:px-10 py-3 border-b border-white/10 shadow-xl"
-              : "rounded-2xl pl-5 lg:pl-8 pr-3 lg:pr-4 py-[6px] shadow-lg border border-white/10"
+              : "px-5 lg:px-8 py-2 lg:py-3 shadow-lg border border-white/10"
             }`}
           >
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 shrink-0">
-              <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#a78861] to-[#d1ab7d] flex items-center justify-center">
-                <span className="text-white font-black text-xs">S</span>
-              </div>
-              <h2 style={{ fontFamily: "Montserrat, sans-serif", fontWeight: 800, fontSize: "22px", letterSpacing: "0.05em" }}>
-                SHEFKO
-              </h2>
+              <img src={logo} alt="SHEFKO Logo" className="h-9 sm:h-10 w-auto object-contain" />
             </Link>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:block">
-              <ul className="flex items-center gap-5">
+              <ul className="flex items-center gap-6">
                 {NAV_LINKS.map(({ to, label, exact }) => (
                   <li key={to}>
                     <NavLink to={to} end={exact} className={navLinkClass}>
@@ -162,11 +157,11 @@ const Header = ({ openModal }) => {
             </nav>
 
             {/* Right Side — Language + Phone + CTA */}
-            <div className="hidden lg:flex items-center gap-3">
+            <div className="hidden lg:flex items-center gap-4">
               {/* Phone */}
               <a
                 href="tel:+998555118080"
-                className="flex items-center gap-1.5 text-white/70 hover:text-white text-[13px] transition-colors border border-white/15 hover:border-white/30 rounded-xl px-3 py-2"
+                className="flex items-center gap-1.5 text-white/70 hover:text-white text-[13px] transition-colors"
               >
                 <FiPhone className="text-[#d1ab7d] text-sm" />
                 <span>55 511 80 80</span>
@@ -174,16 +169,16 @@ const Header = ({ openModal }) => {
               <LanguageSelect />
               <button
                 onClick={openModal}
-                className="font-semibold px-5 h-[38px] bg-gradient-to-r from-[#a78861] to-[#d1ab7d] transition-all duration-300 rounded-xl hover:opacity-90 hover:scale-105 text-[14px] whitespace-nowrap shadow-lg"
+                className="font-bold px-6 h-[40px] bg-[#c0392b] text-white uppercase tracking-widest transition-colors duration-300 hover:bg-red-800 text-[12px] whitespace-nowrap"
               >
                 {t("header.btn")}
               </button>
             </div>
 
             {/* Mobile — Language + Burger */}
-            <div className="flex lg:hidden items-center gap-2">
+            <div className="flex lg:hidden items-center gap-3">
               <LanguageSelect />
-              <div ref={buttonRef} onClick={handleMenuToggle} className="cursor-pointer p-2">
+              <div ref={buttonRef} onClick={handleMenuToggle} className="cursor-pointer p-1">
                 <HiMenu className="text-[26px]" />
               </div>
             </div>
