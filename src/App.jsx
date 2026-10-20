@@ -8,6 +8,7 @@ import Export from "./pages/Export";
 import Production from "./pages/Production";
 import Feedback from "./pages/Feedback";
 import Layout from "./layout/Layout";
+import Seo from "./components/Seo";
 import { useState, useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <>
+      <Seo />
       <ToastContainer />
       <Routes>
         <Route

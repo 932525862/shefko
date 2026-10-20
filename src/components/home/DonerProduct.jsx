@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import tushoImg from "../../assets/mol.jpg";
+import tushoImg from "../../assets/tushonka.jpeg";
 import skefkoImg from "../../assets/skefko1.png";
 import kavobImg from "../../assets/tovuq.jpg";
 import { ImgSkeleton } from "../ui/Skeleton";
@@ -57,7 +57,7 @@ const products = {
         ],
         nutritionTitle: "100 g mahsulot tarkibi",
         nutrition: [
-          { label: "Oqsil", val: "45 g", pct: 90, icon: GiMuscleUp, color: "bg-[#c0392b]" },
+          { label: "Oqsil", val: "15 g", pct: 30, icon: GiMuscleUp, color: "bg-[#c0392b]" },
           { label: "Yog‘lar", val: "17 g", pct: 34, icon: GiDroplets, color: "bg-[#a78861]" },
           { label: "Energiya qiymati", val: "213 kkal", pct: 75, icon: FaFireAlt, color: "bg-[#d1ab7d]" }
         ],
@@ -89,7 +89,7 @@ const products = {
         ],
         nutritionTitle: "Пищевая ценность на 100 г продукта",
         nutrition: [
-          { label: "Белки", val: "45 г", pct: 90, icon: GiMuscleUp, color: "bg-[#c0392b]" },
+          { label: "Белки", val: "15 г", pct: 30, icon: GiMuscleUp, color: "bg-[#c0392b]" },
           { label: "Жиры", val: "17 г", pct: 34, icon: GiDroplets, color: "bg-[#a78861]" },
           { label: "Энерг. ценность", val: "213 ккал", pct: 75, icon: FaFireAlt, color: "bg-[#d1ab7d]" }
         ],
@@ -121,7 +121,7 @@ const products = {
         ],
         nutritionTitle: "Nutritional value per 100 g",
         nutrition: [
-          { label: "Protein", val: "45 g", pct: 90, icon: GiMuscleUp, color: "bg-[#c0392b]" },
+          { label: "Protein", val: "15 g", pct: 30, icon: GiMuscleUp, color: "bg-[#c0392b]" },
           { label: "Fats", val: "17 g", pct: 34, icon: GiDroplets, color: "bg-[#a78861]" },
           { label: "Energy value", val: "213 kcal", pct: 75, icon: FaFireAlt, color: "bg-[#d1ab7d]" }
         ],
@@ -153,7 +153,7 @@ const products = {
         ],
         nutritionTitle: "القيمة الغذائية لكل 100 غرام",
         nutrition: [
-          { label: "بروتين", val: "45 غ", pct: 90, icon: GiMuscleUp, color: "bg-[#c0392b]" },
+          { label: "بروتين", val: "15 غ", pct: 30, icon: GiMuscleUp, color: "bg-[#c0392b]" },
           { label: "دهون", val: "17 غ", pct: 34, icon: GiDroplets, color: "bg-[#a78861]" },
           { label: "الطاقة", val: "213 سعرة", pct: 75, icon: FaFireAlt, color: "bg-[#d1ab7d]" }
         ],
@@ -185,7 +185,7 @@ const products = {
         ],
         nutritionTitle: "100 g ürün için besin değeri",
         nutrition: [
-          { label: "Protein", val: "45 g", pct: 90, icon: GiMuscleUp, color: "bg-[#c0392b]" },
+          { label: "Protein", val: "15 g", pct: 30, icon: GiMuscleUp, color: "bg-[#c0392b]" },
           { label: "Yağ", val: "17 g", pct: 34, icon: GiDroplets, color: "bg-[#a78861]" },
           { label: "Enerji değeri", val: "213 kcal", pct: 75, icon: FaFireAlt, color: "bg-[#d1ab7d]" }
         ],
