@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import tushoImg from "../../assets/tushonka.jpeg";
+import molDonerImg from "../../assets/8.jpg";
 import skefkoImg from "../../assets/skefko1.png";
 import kavobImg from "../../assets/tovuq.jpg";
 import { ImgSkeleton } from "../ui/Skeleton";
@@ -40,7 +41,7 @@ const products = {
         name: "O'zbekcha",
         flag: "🇺🇿",
         dir: "ltr",
-        title: "DÖNER — Mol Tushonka",
+        title: "Mol Tushonka",
         subtitle: "Mol go‘shtidan tayyorlangan tushonka \"SHEFKO\"",
         tagline: "Energy Rich • High Protein",
         manufacturerTitle: "Ishlab chiqaruvchi",
@@ -72,7 +73,7 @@ const products = {
         name: "Русский",
         flag: "🇷🇺",
         dir: "ltr",
-        title: "DÖNER — Тушенка",
+        title: "Тушенка",
         subtitle: 'Тушенка из говядины "SHEFKO"',
         tagline: "Energy Rich • High Protein",
         manufacturerTitle: "Производитель",
@@ -104,7 +105,7 @@ const products = {
         name: "English",
         flag: "🇬🇧",
         dir: "ltr",
-        title: "DÖNER — Beef Stew",
+        title: "Beef Stew",
         subtitle: 'Stewed Beef "SHEFKO"',
         tagline: "Energy Rich • High Protein",
         manufacturerTitle: "Manufacturer",
@@ -136,7 +137,7 @@ const products = {
         name: "العربية",
         flag: "🇦🇪",
         dir: "rtl",
-        title: "دونر — لحم بقر معلب",
+        title: "لحم بقر معلب",
         subtitle: 'لحم بقر معلب "شيفكو" (SHEFKO)',
         tagline: "Energy Rich • High Protein",
         manufacturerTitle: "المُصنّع",
@@ -168,7 +169,7 @@ const products = {
         name: "Türkçe",
         flag: "🇹🇷",
         dir: "ltr",
-        title: "DÖNER — Dana Konserve",
+        title: "Dana Konserve",
         subtitle: 'Dana Etli Konserve (Tuşonka) "SHEFKO"',
         tagline: "Energy Rich • High Protein",
         manufacturerTitle: "Üretici",
@@ -200,7 +201,7 @@ const products = {
     id: "beef_doner",
     badgeIcon: GiMeatHook,
     tabLabel: "Mol Donar Konservasi",
-    images: [tushoImg],
+    images: [molDonerImg],
     languages: {
       uz: {
         code: "uz",
